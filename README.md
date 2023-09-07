@@ -30,6 +30,7 @@ src -> components -> Folder_Name -> component.
 public -> Folder_Name -> images (svg)
 render in src -> App.jsx
 ```
+Figma file link: https://www.figma.com/file/nxLp9GxCizQuVdmv2xRvW5/Desktop%2FMobile-Homepage%2CAbout-Me-page%2C-Case-Studies-Page-Wireframes-(Community)?type=design&node-id=0-1&mode=design&t=k5LlWnaKmbxGQziI-0
 **Merge on staging branch. 
 DONOT MERGE on MAIN BRANCH.**
 
