@@ -23,8 +23,8 @@
   margin-left: 20px;
 }
 .nav-logo img {
-  margin-top: -1rem;
-  height: 150px;
+  margin-top: 1rem;
+  height: 50px;
 }
 .menu-links {
   width: 70%;
@@ -88,7 +88,7 @@
     transition: all 0.5s ease;
   }
   .nav-logo img {
-    height: 120px;
+    height: 40px;
   }
   .nav-menu.active {
     background: #000;
