@@ -1,7 +1,10 @@
 import React from "react";
+import Footer from "./components/Footer";
 
-export default function App(){
-  return(
-    <div className="text-center font-bold">start here</div>
-  )
+export default function App() {
+  return (
+    <div>
+      <Footer />
+    </div>
+  );
 }
