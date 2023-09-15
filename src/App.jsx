@@ -16,7 +16,7 @@ export default function App() {
       
       <h2 className="text-center text-xl font-bold md:text-[60px] md:my-16 text-white">EVENTS</h2>
       
-      <div id='row' className='flex flex-col justify-between items-center lg:flex-row'>
+      <div id='row' className='flex flex-col justify-between items-center lg:flex-row flex flex-wrap shrink-0'>
         {
           data.map( (d) => (
             <Card data={d} />
