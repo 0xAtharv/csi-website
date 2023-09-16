@@ -5,8 +5,6 @@ import "animate.css";
 
 function FindUS() {
   const iframeStyle = {
-    // width: "100%",
-    //   height: "800px",
     borderRadius:"10px",
   };
   return (
@@ -28,12 +26,12 @@ function FindUS() {
                   <br/>
                   <div className="flex flex-row">
                   <img src="public/call.svg" className="w-12 h-12 pr-2 "/>
-              <span className="pt-1.5">Purvashi Shah:  09136126474</span>
+              <span className="pt-1.5">Purvashi Shah:  9552276964</span>
             </div>
                   <div className="flex flex-row">
                   <img src="public/call.svg" className="w-12 h-12 pr-2 "/>
               <span className="pt-1.5">Yogesh Shukla: 
-              09920981062</span>
+              9820454730</span>
             </div>
           </div>
         
@@ -55,7 +53,6 @@ function FindUS() {
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
-          {/* <div className="w-[500px] h-[500px] bg-gray-400">hello world</div> */}
     </div>
   );
 }
