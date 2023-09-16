@@ -18,7 +18,7 @@ export default function Card(data) {
             
             
             <div className='absolute bottom-0 rounded-b-md p-[2px] lg:p-2 md:p-[7px] lg:w-64 md:w-48 w-32  bg-gradient-to-r from-neutral-900 via-[#650873] to-[#6c27777b]  left-0'>
-            <h1 className='mx-2 '>{props.name}</h1>
+            <h1 className='mx-2 '>{data.name}</h1>
             </div>
             
            

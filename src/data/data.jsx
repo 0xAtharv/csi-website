@@ -88,7 +88,7 @@ export const technicals = [
 export const creatives =   [
   {
     id:1,
-    name:"arnav singh",
+    name:"anshul",
     coverImg: "katie-zaferes.png",
 
   
