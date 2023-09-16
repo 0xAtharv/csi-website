@@ -20,7 +20,7 @@ function Footer() {
                         className="w-5 h-5"
                       />
                       <a
-                        href="https://github.com/themesberg/flowbite"
+                        href="https://github.com/tcet-opensource/csi-website/"
                         className="hover:underline p-2">
                         Github
                       </a>
@@ -35,7 +35,7 @@ function Footer() {
                       />
 
                       <a
-                        href="https://discord.gg/4eeurUVvTy"
+                        href="https://discord.gg/K7zpQYxC"
                         className="hover:underline p-2">
                         Discord
                       </a>
@@ -57,7 +57,7 @@ function Footer() {
                         className="w-5 h-5"
                       />
                       <a
-                        href="https://flowbite.com/"
+                        href="https://instagram.com/csitcet?igshid=NzZhOTFlYzFmZQ=="
                         className="hover:underline p-2">
                         Instagram
                       </a>
@@ -71,7 +71,7 @@ function Footer() {
                         className="w-5 h-5"
                       />
                       <a
-                        href="https://tailwindcss.com/"
+                        href="/"
                         className="hover:underline p-2">
                         Facebook
                       </a>
@@ -82,6 +82,7 @@ function Footer() {
             </div>
           </div>
           <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          {/* <div className="justify-items-center text-white">Made By CSI TECH TEAM</div> */}
         </div>
       </footer>
     </div>
