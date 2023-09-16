@@ -1,7 +1,8 @@
 import React from "react";
+import FindUS from "./components/FindUS";
 
 export default function App(){
   return(
-    <div className="text-center font-bold">start here</div>
+    <div><FindUS/></div>
   )
 }
