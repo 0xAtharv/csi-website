@@ -49,7 +49,7 @@ export default function EventsPage(){
                     style={customStyles}
                     contentLabel="Example Modal"
                 >
-                    <div className="w-80 flex flex-col items-center bg-gradient-to-b from-[#502D6A] to-[#9B36EA] text-white p-2">
+                    <div className="w-80 flex flex-col items-center bg-gradient-to-b from-[#502D6A] to-[#9B36EA] text-white p-2 m-0">
                         <div className="bg-white text-black p-2 rounded-sm font-bold text-lg text-center w-full">{details.name}</div>
                         <div className="flex w-full justify-start flex-col p-4">
                             <p>Date: <b>{details.date}</b></p>
@@ -68,8 +68,18 @@ export default function EventsPage(){
     })
 
     return(
-        <div className="wrapper">
-         {eventDetail}
+        <div className="flex flex-col bg-gray-300">
+            <div className="h-screen bg-black">
+            <img src="./images/zephrbanner.png" alt="zephyr-banner" className="w-full h-1/2"/>
+            <div className="text-white">
+                <p className="text-center font-bold text-5xl my-8">ZEPHYR</p>
+                <p className="mx-20 border-2 rounded border-gray-500 px-10 py-8 text-center text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam porro quisquam ea deleniti fugit suscipit accusantium sit ab reiciendis nemo voluptate, laborum libero consequuntur vitae quas recusandae rem eius fuga facere illum excepturi obcaecati, harum iure? Tempore neque magnam nobis quaerat eum. Quas id laboriosam eveniet quisquam nihil error quis dicta fugit veritatis saepe ut consequatur repudiandae atque tenetur voluptates nulla, optio doloribus numquam explicabo, itaque magnam! Ad labore nisi natus. Excepturi beatae molestiae iste distinctio doloribus voluptatum optio nulla sunt quo delectus tempora in et quia, doloremque autem possimus voluptates veritatis odio aliquid corrupti impedit ad quam est asperiores!</p>
+            </div>
+            </div>
+            <p className="text-white shadow-lg shadow-slate-700 text-center font-bold text-5xl my-8 w-auto py-4 bg-gray-800">EVENTS</p>
+            <div className="wrapper">
+                {eventDetail}
+            </div>
         </div>
     )
 }

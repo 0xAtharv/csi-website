@@ -2,29 +2,18 @@
     box-sizing: border-box;
   }
   
-  /* body,
-  html {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: orange;
-  } */
-  
   .wrapper {
     display: grid;
     width: 100%;
-    grid-template-columns: auto auto auto;
-    column-gap:50px;
-    row-gap: 50px;
-    padding:20px;
+    grid-template-columns: auto ;
+    row-gap: 30px;
+    padding: 15px;
     justify-content: center;
   }
   
   .card {
-    width: 360px;
-    height: 452px;
+    width: 280px;
+    height: 350px;
     border-radius: 15px;
     padding: 1.5rem;
     position: relative;
@@ -87,17 +76,20 @@
   }
   
   .card .info h1 {
+    text-align: center;
+    font-size: 18px;
     margin: 0px;
   }
   
   .card .info p {
+    text-align: justify;
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 8px;
   }
   
   .card .info button {
-    padding: 0.6rem;
+    padding: 0.3rem;
     outline: none;
     border: none;
     border-radius: 3px;
@@ -106,7 +98,7 @@
     font-weight: bold;
     cursor: pointer;
     transition: 0.4s ease;
-    margin-top: 8px;
+    margin-top: 10px;
   }
   
   .card .info button:hover {
@@ -114,3 +106,114 @@
     color: white;
   }
   
+@media only screen and (min-width: 640px) {
+  .card {
+    width: 280px;
+    height: 396px;
+    border-radius: 15px;
+    padding: 1.5rem;
+  }
+  .wrapper {
+    grid-template-columns: auto auto;
+    column-gap:35px;
+    row-gap: 35px;
+    padding:15px;
+  }
+  /* .card:last-child{
+    grid-column: span 2;
+    text-align: center;
+  } */
+  .card .info p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .card .info button {
+    padding: 0.6rem;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    width: 340px;
+    height: 420px;
+    border-radius: 15px;
+    padding: 2rem;
+  }
+  /* .wrapper:last-child{
+    grid-column: span 2;
+    text-align: center;
+  } */
+  .wrapper {
+    grid-template-columns: auto auto;
+    column-gap:30px;
+    row-gap: 40px;
+    padding: 25px;
+  }
+  .card .info h1 {
+    font-size: 24px
+  }
+  .card .info p {
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 8px;
+  }
+  .card .info button {
+    padding: 0.6rem;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrapper {
+    grid-template-columns: auto auto auto;
+    column-gap:35px;
+    row-gap: 35px;
+    padding:15px;
+  }
+  .card {
+    width: 280px;
+    height: 350px;
+    border-radius: 15px;
+  }  
+  .card .info h1 {
+    font-size: 24px
+  }
+  .card .info p {
+    letter-spacing: 1px;
+    font-size: 15px;
+    margin-top: 8px;
+  }
+  .card .info button {
+    padding: 0.6rem;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .wrapper {
+    grid-template-columns: auto auto auto;
+    column-gap:40px;
+    row-gap: 40px;
+    padding:15px;
+  }
+  .card {
+    width: 320px;
+    height: 412px;
+    border-radius: 15px;
+    padding: 1.5rem;
+  }
+  .card .info h1 {
+    font-size: 24px
+  }
+  .card .info p {
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 8px;
+  }
+  .card .info button {
+    padding: 0.6rem;
+    margin-top: 35px;
+  }
+}
