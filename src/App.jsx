@@ -1,4 +1,6 @@
 import React from 'react'
+import WCpage from './components/WCpage.jsx'
+
 
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
@@ -29,5 +31,5 @@ export default function App() {
         <Route path="/teams" element={<Teams />} />
       </Routes>
     </div>
-  );
+  )
 }
