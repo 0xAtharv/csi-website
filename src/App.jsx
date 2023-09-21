@@ -1,3 +1,5 @@
+import React from 'react'
+
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 // import Gallery from "./components/Gallery";
@@ -7,8 +9,9 @@ import Footer from "./components/Footer";
 import FindUS from "./components/FindUS";
 import { Navbar } from "./components/Navbar";
 import {Teams, Home, Sponsors, Events } from "./components/pages";
+import Sponsors from './components/Sponsors'
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       {/* <Gallery /> */}
@@ -18,6 +21,7 @@ function App() {
       <FindUS/>
       <Footer />
       <Navbar />
+      <Sponsors/>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/events" element={<Events/>} />
