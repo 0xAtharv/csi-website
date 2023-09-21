@@ -6,8 +6,6 @@ import Swiper from "../src/components/Swiper"
 
 export default function App() {
   return (
-    // <div className="text-center font-bold">
-    //   start here
       <div >
       {/* <Gallery /> */}
       {/* <Galleryy/> */}
