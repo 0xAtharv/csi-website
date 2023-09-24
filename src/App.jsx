@@ -10,7 +10,7 @@ import Swiper from "../src/components/Swiper"
 import Footer from "./components/Footer";
 import FindUS from "./components/FindUS";
 import { Navbar } from "./components/Navbar";
-import {Teams, Home, Sponsors, Events } from "./components/pages";
+import {Teams, Home, Events } from "./components/pages";
 import Sponsors from './components/Sponsors'
 
 export default function App() {
