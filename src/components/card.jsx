@@ -1,18 +1,20 @@
-import React from "react"; 
-import { data } from "./data";
+import React from "react";
+import { data } from "./Data";
 
 export default function Card({data}){
     
     return(
-        
-        <div className= "w-60 mx-12 my-4  rounded-md relative group border-solid border-2 md:w-[500px] h-[300px]  first-letter: lg:w-96">
-            {/* <img src = {`../public/${props.img}`} /> */}
-            <img src= {data.img} className = "w-[100%] h-[100%] group-hover:scale-10 group-hover:scale-100 group-hover:blur-lg "/>
-            <div className= " absolute  px-4 py-30  w-[100%] h-[100%] translate-y-[0px] invisible text-white transition ease-in-out  duration-500 group-hover:-translate-y-[200px]  group-hover:visible" >
-                <h2>{data.info}</h2>
-                <button className = "border-2  px-8 py-2 text-xl bg-green-400 hover:border-2 hover:scale-105 hover:border- rounded-md font-semibold my-8  absolute left-[35%] " >More</button>
+        <>
+            <div className="mx-8 px-2 py-2 my-8 bg-white relative rounded-tl-lg rounded-br-lg group md:mx-44 md:w-96 md:h-96 lg:h-64 lg:w-64 lg:mx-8 lg:[&:nth-child(9)]:ml-[350px]">
+                <img src={data.img} />
+                    <div className="absolute bottom-4 -left-0 opacity-0 duration-300 group-hover:translate-x-[30%] group-hover:opacity-100" >
+                        <h2 className="text-white font-bold text-xl ">{data.name}</h2>
+                        <p className="text-orange-500 text-md my-1 mb-2 italic">{data.pos}</p>
+                        <a href={data.insta} className="text-white text-3xl mr-5"><i class="fa-brands fa-instagram" ></i></a>
+                        <a href={data.linkedin} className="text-white text-3xl"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
             </div>
-        </div>
+        </>
         )
     }
     
