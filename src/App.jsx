@@ -13,25 +13,29 @@ import Swiper from "../src/components/Swiper"
 import Footer from "./components/Footer";
 import FindUS from "./components/FindUS";
 import { Navbar } from "./components/Navbar";
-import {Teams, Home, Events } from "./components/pages";
-import Sponsors from './components/Spons.jsx'
+import {Teams, Home, Sponsors, Events } from "./components/pages";
+// import Sponsors from './components/Sponsors'
+import Timeline from "./components/timeline";
+import Landing from "./components/landing-page";
+import EventsPage from "./components/events-page";
 
 export default function App() {
   return (
-    <div className="App bg-[#2e243c]">
+    <div className="App">
+      <Navbar />
+      <Landing />
+      <Timeline />
       {/* <Gallery /> */}
       {/* <Galleryy/> */}
       {/* <div className="font-Inter text-white text-2xl flex justify-center align-middle mt-20">GALLERY</div> */}
-      {/* <Navbar />
-      <Timeline />
-      <Swiper />
-      <FindUS />
-      <WCpage />
-      <PrevEvents/>
-      <Footer /> */}
-      {/* <Home /> */}
-      {/* <Navbar/> */}
-      {/* <Sponsors/> */}
+      <Swiper/>
+      <FindUS/>
+      <Footer />
+      
+      
+      <EventsPage />
+      
+      <Sponsors/>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/events" element={<Events/>} />
