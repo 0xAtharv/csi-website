@@ -1,11 +1,18 @@
 import React from "react";
+// import Navbar from "../Navbar"
+import Swiper from "../Swiper"
+import Footer from "../Footer";
+import FindUS from "../FindUS";
+import { Navbar } from "../Navbar";
+import Timeline from "../timeline";
+// import {Teams, Home, Events } from "./components/pages";
 
 export const Home = () => {
   return (
     <>
     <h1>HOME</h1>
     <div>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt
+      {/* Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem sunt
       itaque, perferendis necessitatibus corrupti ea magni voluptatibus est
       ipsa. Nulla praesentium dolore eos alias incidunt, odio et eaque, sunt
       vitae corporis animi, itaque architecto. Sunt minima nostrum fugiat
@@ -16,7 +23,13 @@ export const Home = () => {
       recusandae architecto est voluptates optio libero officiis consectetur
       possimus voluptate ipsam alias velit veritatis reprehenderit
       repudiandae. Ullam praesentium inventore minima eius dolorem omnis fugit
-      facilis.
+        facilis. */}
+        {/* <Navbar/> */}
+      <Navbar />
+      <Timeline />
+      <Swiper />
+      <FindUS/>
+      <Footer />
     </div>
   </>
   )

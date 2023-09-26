@@ -1,5 +1,8 @@
 import React from 'react'
 import WCpage from './components/WCpage.jsx'
+import Timeline from './components/timeline/index.jsx';
+// import { Home } from './components/pages';
+import PrevEvents from './components/prev-events/index.jsx';
 
 
 import { Route, Routes } from "react-router-dom";

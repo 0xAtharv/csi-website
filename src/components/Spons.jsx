@@ -10,7 +10,7 @@ import Header from './header.jsx'
 
 
     
-export default function Sponsors() {
+export default function Spons() {
   const Onecards = data.map(item => {
       return (
         
