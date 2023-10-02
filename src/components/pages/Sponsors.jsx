@@ -1,13 +1,12 @@
 import React from "react";
-import Spons from "../Spons";
-import { Navbar } from "../Navbar";
+import { Navbar } from "../navbar/Navbar";
+import Spons from "../Sponsor/Spons";
 
 export const Sponsors = () => {
   return (
     <>
-      <h1>Sponsors</h1>
-      <Navbar/>
-      <Spons/>
+      <Navbar />
+      <Spons />
     </>
   );
 };

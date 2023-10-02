@@ -1,9 +1,9 @@
 
 
 import React from 'react'
-import data from '../data1'
+import data from './data1'
 import Onecard from './onecard.jsx'
-import Header from './header.jsx'
+import Header from '../header.jsx'
 
 
 

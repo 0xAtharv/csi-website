@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import datas from "./images"
 // import Galleryy from "./galleryy";
-import "../App.css"
+import "../../App.css"
 
 export default function CompanySwiper() {
     //   const slideObj = [
@@ -34,7 +34,7 @@ export default function CompanySwiper() {
 
     return (
       <>
-      <div className="font-Inter text-white text-2xl flex justify-center align-middle mt-20 underline underline-offset-3 decoration-1 decoration-white ">GALLERY</div>
+      <div className="font-Inter text-white text-3xl font-bold text-center mt-20 shadow-purple-400">GALLERY</div>
             <div className="flex justify-between p-12 relative">
             <div className="swiper-prev ">
                     <img src="public/arrow-left-circle-svgrepo-com.svg" alt="prev-image-btn" className="absolute max-md:hidden  top-0 left-0 h-10 w-10 ml-2 mt-40 z-20" />

@@ -3,15 +3,15 @@ import React from "react";
 function Footer() {
   return (
     <div>
-      <footer className="bg-[#2E243C]">
-        <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 ">
+      <footer className="bg-[#02000593]">
+        <div className="mx-auto w-full max-w-screen-xl px-4 py-4 lg:py-4 ">
           <div>
             <div className="grid grid-cols-2 gap-8 sm:gap-10 sm:grid-cols-2 ">
               <div className="flex flex-col items-center">
                 <h2 className="mb-6 text-sm align-center justify-center font-semibold text-white uppercase dark:text-white">
                   Connect with us:
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                <ul className="text-white font-medium">
                   <li className="mb-4">
                     <div className="flex items-center">
                       <img
@@ -48,7 +48,7 @@ function Footer() {
                 <h2 className="mb-6 text-sm font-semibold text-white uppercase dark:text-white">
                   Socials
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                <ul className="text-white font-medium">
                   <li className="mb-4">
                     <div className="flex items-center">
                       <img
@@ -81,8 +81,9 @@ function Footer() {
               </div>
             </div>
           </div>
-          <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          <hr className="my-4 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-4" />
           {/* <div className="justify-items-center text-white">Made By CSI TECH TEAM</div> */}
+          <h4 className="text-center text-white">MADE BY CSI TECH TEAM</h4>
         </div>
       </footer>
     </div>

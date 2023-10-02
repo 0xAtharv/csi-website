@@ -1,6 +1,6 @@
 import React,{useState} from "react"
 import Card from './card.jsx'
-import {technicals, creatives, inhouses, publicRelation, sponsorss} from './data.js'
+import {technicals, creatives, inhouses, publicRelation, sponsorss} from '../teams/data.js'
 
 export default function WCpage() {
 
@@ -42,13 +42,13 @@ export default function WCpage() {
   ]
      
   const buttons = functions.map(button => (
-    <div onClick={button.function} className='flex justify-center items-center text-center w-auto py-3 px-8 cursor-pointer text-xs md:text-md lg:text-lg last:mx-12 last:col-start-1 last:col-end-3 sm:last:col-start-2 sm:last:col-end-4 md:last:mx-0 md:last:col-start-5 md:last:col-end-6 rounded-full bg-gradient-to-tr from-[#35013d] via-[#700880] to-[#35013d]'>
+    <div onClick={button.function} className='flex justify-center items-center text-center w-auto py-3 px-8 cursor-pointer text-xs md:text-md lg:text-lg last:mx-12 last:col-start-1 last:col-end-3 sm:last:col-start-2 sm:last:col-end-4 md:last:mx-0 md:last:col-start-5 md:last:col-end-6 rounded-full bg-[#2c113efa]'>
       {button.name}  
     </div>
   ))
 
   return (
-    <div className='bg-[#2E243C] w-full flex flex-col px-10 box-border h-auto'>
+    <div className="bg-[url('../public/csi-website.png')] w-full flex flex-col px-10 box-border h-auto">
       <div className='text-white justify-center pt-10 grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-5 gap-y-3 gap-x-8 auto-cols-fr'>
        {buttons}
       </div>

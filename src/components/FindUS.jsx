@@ -8,7 +8,7 @@ function FindUS() {
     borderRadius:"10px",
   };
   return (
-    <div className="flex lg:flex-row md:flex-col sm:flex-col m-2 w-screen animate__animated animate__fadeIn justify-center align-middle">
+    <div className="flex lg:flex-row md:flex-col sm:flex-col m-2 w-screen justify-center align-middle">
           <div className="flex flex-col p-1 text-white text-xl mt-10 ml-5">
              <div className="flex flex-row pt-1.5 "> <img src="public/pin.svg" className="w-12 h-12 pr-2 "/>
         <h1 className="text-4xl ">Find Us</h1></div>
@@ -30,7 +30,7 @@ function FindUS() {
             </div>
                   <div className="flex flex-row">
                   <img src="public/call.svg" className="w-12 h-12 pr-2 "/>
-              <span className="pt-1.5">Yogesh Shukla: 
+              <span className="pt-1.5">Yogesh Yadav: 
               9820454730</span>
             </div>
           </div>
