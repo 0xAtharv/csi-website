@@ -14,7 +14,7 @@ export default function PrevEvents(){
     ))
 
     return(
-       <div className="flex flex-col items-center justify-center border-box bg-slate-800 p-4 lg:p-4 w-screen ">
+       <div className="flex flex-col items-center justify-center border-box bg-slate-800 p-4 lg:p-4 w-screen bg-[url('/csi-website.png')] bg-fixed">
         <p className="w-auto h-auto text-white text-3xl sm:text-5xl lg:text-6xl font-bold leading-8 my-4 p-4 hover:shadow-md hover:shadow-purple-500">PAST EVENTS</p>
         <div className="grid grid-cols-1 gap-10 md:gap-6 lg:gap-4 xl:gap-6 sm:grid-cols-2  lg:grid-cols-3 ">
             {prevs}
