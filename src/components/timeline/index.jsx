@@ -50,7 +50,7 @@ const zephyrEvents = events.map(event => (
             <div className='rounded-t-lg bg-gradient-to-b from-[#9B36EA] to-[#502D6A] shadow-md shadow-gray-500'>
                 <p className='text-white pl-4 py-2 sm:py-2.5 md:py-4'>{event.date}</p>
             </div>
-            <div className='h-20 md:h-24 border-4 border-[#502D6A] rounded-b-lg pl-4'>
+            <div className='border-4 border-[#502D6A] rounded-b-lg pl-4'>
                 <p className='text-black'>{event.name}</p>
                 <p className='text-black'>{event.type}</p>
             </div>
@@ -65,6 +65,5 @@ export default function Timeline(){
                 {zephyrEvents}       
             </VerticalTimeline>
         </div>
-        
     )
 }
