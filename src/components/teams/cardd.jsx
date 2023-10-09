@@ -12,7 +12,7 @@ export default function Card(data) {
         <div className="absolute top-0 right-0 sm:py-2 sm:px-1 rounded-bl-md rounded-tr-md bg-gradient-to-tr from-neutral-900 via-[#700880] to-neutral-900">
           <a href={`${data.instalink}`}>
             <img
-              src="../images/instagram.png"
+              src="public/images/instagram.png"
               className="w-4 md:w-6 lg:w-8 m-1 lg:my-2.5 md:my-2 my-2"
             />
           </a>

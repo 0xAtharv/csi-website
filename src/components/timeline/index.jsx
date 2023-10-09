@@ -60,7 +60,7 @@ const zephyrEvents = events.map(event => (
 export default function Timeline(){
     return(
         <div className='box-border mx-10'>
-            <h1 className="text-center text-white m-20 font-3xl">TIMELINE</h1>
+            <h1 className="text-center text-white m-20 text-3xl font-bold">TIMELINE</h1>
             <VerticalTimeline>
                 {zephyrEvents}       
             </VerticalTimeline>

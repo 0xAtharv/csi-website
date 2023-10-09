@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import datas from "./images"
 // import Galleryy from "./galleryy";
 import "../../App.css"
+import "./swiper.css"
 
 export default function CompanySwiper() {
     //   const slideObj = [
@@ -33,11 +34,11 @@ export default function CompanySwiper() {
     //   ];
 
     return (
-      <>
+      <div className="cssanimation sequence fadeInBottom">
       <div className="font-Inter text-white text-3xl font-bold text-center mt-20 shadow-purple-400">GALLERY</div>
-            <div className="flex justify-between p-12 relative">
+            <div className="flex justify-between p-12 relative mx-20">
             <div className="swiper-prev ">
-                    <img src="public/arrow-left-circle-svgrepo-com.svg" alt="prev-image-btn" className="absolute max-md:hidden  top-0 left-0 h-10 w-10 ml-2 mt-40 z-20" />
+                    <img src="public/arrow-left-circle-svgrepo-com.svg" alt="prev-image-btn" className="absolute max-md:hidden animate-bounce top-0 left-0 h-10 w-10 ml-2 mt-40 z-20" />
                 </div>
                 
             <Swiper
@@ -70,7 +71,8 @@ export default function CompanySwiper() {
                         1280: {
                           slidesPerView: 4,
                           spaceBetween: 50,
-                        },
+                      },
+                        
                       }}
                 
             >
@@ -88,9 +90,9 @@ export default function CompanySwiper() {
                  })}
                 
             </Swiper><div className="swiper-next m-1">
-                    <img src="public/arrow-left-circle-svgrepo-com.svg" alt="next-image-btn" className="absolute max-md:hidden top-0 right-0 rotate-180 h-10 w-10 mr-2 mt-40 z-20"/>
+                    <img src="/right-arrow.svg" alt="next-image-btn" className="absolute max-md:hidden rotate-180  top-0 right-0  h-10 w-10 mr-2 mt-40 z-20 animate-bounce"/>
                     </div>
 </div>
-        </>
+        </div>
     );
 }
