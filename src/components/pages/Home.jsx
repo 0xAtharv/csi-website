@@ -6,6 +6,7 @@ import { Navbar } from "../navbar/Navbar";
 // import Timeline from "../timeline";
 import Landing from "../landing-page";
 import AboutUs from "../AboutUs/AboutUs";
+import Mission from "../mission";
 
 export const Home = () => {
   return (
@@ -15,6 +16,7 @@ export const Home = () => {
         <Landing />
         {/* <Timeline /> */}
         <AboutUs/>
+        <Mission />
         <Swiper />
         <FindUS />
         <Footer />

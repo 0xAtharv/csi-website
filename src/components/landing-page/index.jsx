@@ -3,7 +3,7 @@ import "./style.css"
 
 export default function Landing(){
     return(
-        <div className="relative w-full m-0 min-h-screen">
+        <div className="relative w-screen m-0 min-h-screen">
         <div
           className="absolute inset-0 bg-opacity-50 bg-black bg-no-repeat bg-cover bg-fixed" 
           style={{ backgroundImage: 'url("./images/landingg.png")',zIndex:0 }}
