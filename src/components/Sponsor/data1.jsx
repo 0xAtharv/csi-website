@@ -1,11 +1,21 @@
 export default [
     {
       
-      name:"Anshul Khadatkar",
-      sponser: "image tag random",
+      name:"Waffle PLanet",
+      sponser: "Waffle PLanet",
   
     
-      Sponimg:"mountain-bike.png",
+      Sponimg:"public/images/spon/waffle-planet.jpg",
+      
+  
+    },
+    {
+      
+      name:"NAIL IT",
+      sponser: "NAIL IT",
+  
+    
+      Sponimg:"public/images/spon/nailit.jpg",
       
   
     },
@@ -15,7 +25,7 @@ export default [
       sponser: "image tag random",
   
     
-      Sponimg:"mountain-bike.png",
+      Sponimg:"public/images/spon/ahlid.jpg",
       
   
     },
@@ -25,7 +35,7 @@ export default [
       sponser: "image tag random",
   
     
-      Sponimg:"mountain-bike.png",
+      Sponimg:"public/images/spon/uk.jpg",
       
   
     },
@@ -35,7 +45,7 @@ export default [
       sponser: "image tag random",
   
     
-      Sponimg:"mountain-bike.png",
+      Sponimg:"public/images/spon/momo.jpg",
       
   
     },
@@ -45,7 +55,7 @@ export default [
       sponser: "image tag random",
   
     
-      Sponimg:"mountain-bike.png",
+      Sponimg:"public/images/spon/khulhad-rani.jpg",
       
   
     },
@@ -55,7 +65,7 @@ export default [
       sponser: "image tag random",
   
     
-      Sponimg:"mountain-bike.png",
+      Sponimg:"public/images/spon/ims.jpg",
       
   
     },
@@ -65,7 +75,7 @@ export default [
       sponser: "image tag random",
   
     
-      Sponimg:"mountain-bike.png",
+      Sponimg:"public/images/spon/decathlon.jpg",
       
   
     },
@@ -75,17 +85,7 @@ export default [
       sponser: "image tag random",
   
     
-      Sponimg:"mountain-bike.png",
-      
-  
-    },
-    {
-      
-      name:"Anshul Khadatkar",
-      sponser: "image tag random",
-  
-    
-      Sponimg:"mountain-bike.png",
+      Sponimg:"public/images/spon/makin-it.jpg",
       
   
     },

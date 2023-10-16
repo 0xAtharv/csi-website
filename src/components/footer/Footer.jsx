@@ -52,7 +52,7 @@ function Footer() {
                   <li className="mb-4">
                     <div className="flex items-center">
                       <img
-                        src="../icons/instagram.png"
+                        src="../icons/instagram.svg"
                         alt="1"
                         className="w-5 h-5"
                       />

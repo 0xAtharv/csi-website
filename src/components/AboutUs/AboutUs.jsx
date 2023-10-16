@@ -5,7 +5,7 @@ function AboutUs() {
   return (
     <>
       <h1 className="text-center text-3xl m-5 p-5 text-white">ABOUT US</h1>
-      <div className="flex flex-row align-center justify-center m-10 mr-5 animate__animated animate__fadeIn text-white">
+      <div className="flex flex-row align-center justify-center m-10 mr-5  text-white">
         <div className="w-1/2">
           
           <div className="p-5 text-xl text-justify">
