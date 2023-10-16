@@ -18,38 +18,24 @@ export const Navbar = () => {
       </div>
       <ul className={menuOpen ? "open" : ""}>
         <li>
-          {/* <NavLink to="/home">HOME</NavLink> */}
-          {/* <NavLink to="/" exact>
-            HOME
-          </NavLink> */}
           <NavLink to="/home">HOME</NavLink>
-          {/* <NavLink to={["/", "/home"]}>HOME</NavLink> */}
         </li>
         <li>
           <NavLink to="">
             <div className="dropdown rounded-md ">
-              {/* <button className="dropbtn rounded-md"> */}
               TEAMS
-              {/* <i className="fa fa-caret-down"></i> */}
-              {/* </button> */}
               <div className="dropdown-content rounded-md">
-                <NavLink  to="" className="a">Core</NavLink>
-                <NavLink to="/teams" className="a">Working Committee</NavLink>
+                <NavLink  to="/teams" className="a">Core</NavLink>
+                <NavLink to="" className="a">Working Committee</NavLink>
                 <NavLink to="" className="a">Ex-Core</NavLink>
               </div>
             </div>
           </NavLink>
         </li>
-        {/* <li>
-          <NavLink to="/teams">TEAM</NavLink>
-        </li> */}
         <li>
           <NavLink to="">
             <div className="dropdown rounded-md ">
-              {/* <button className="dropbtn rounded-md bg-white"> */}
               EVENTS
-              {/* <i className="fa fa-caret-down"></i> */}
-              {/* </button> */}
               <div className="dropdown-content rounded-md">
                 <NavLink to="/events" className="a">2023-24</NavLink>
                 <NavLink to="/prev-events" className="a">2022-23</NavLink>

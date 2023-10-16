@@ -18,8 +18,8 @@ function Core() {
           whileInView={{ opacity: 1, scale: 1}}
           // animate={{  }}
           transition={{
-            duration: 0.8,
-            delay: 0.5,
+            duration: 1,
+            delay: 0.25,
             ease: [0, 0.71, 0.2, 1.01],
           }}>
           <img
