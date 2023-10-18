@@ -7,7 +7,7 @@ export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="z-10">
+    <nav >
       <Link to="/" className="logo">
         <img src="/csi-logo.png" />
       </Link>

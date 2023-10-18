@@ -1,46 +1,19 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
-
-
-
 import 'swiper/css/pagination';
 import "swiper/css";
 import "swiper/css/navigation";
 import datas from "./images"
-// import Galleryy from "./galleryy";
 import "../../App.css"
 import "./swiper.css"
 
 export default function CompanySwiper() {
-    //   const slideObj = [
-    //     {
-    //       id:1,
-    //       info:"Since 2019, Gravity team has been an astounding market maker for Bitkub. They have proven themselves to be one of the most consistent, committed and driven market makers on our exchange. Gravity Team has contributed high-quality volume and has proven to be very reliable and trustworthy partner. We strongly advocate Gravity Team as they have been an indispensable part of our market-making team."
-    //     },
-    //     {
-    //       id:2,
-    //       info:"Since 2019, Gravity team has been an astounding market maker for Bitkub. They have proven themselves to be one of the most consistent, committed and driven market makers on our exchange. Gravity Team has contributed high-quality volume and has proven to be very reliable and trustworthy partner. We strongly advocate Gravity Team as they have been an indispensable part of our market-making team."
-    //     },
-    //     {
-    //       id:3,
-    //       info:"Since 2019, Gravity team has been an astounding market maker for Bitkub. They have proven themselves to be one of the most consistent, committed and driven market makers on our exchange. Gravity Team has contributed high-quality volume and has proven to be very reliable and trustworthy partner. We strongly advocate Gravity Team as they have been an indispensable part of our market-making team."
-    //     }, 
-    //     {
-    //       id:4,
-    //       info:"Since 2019, Gravity team has been an astounding market maker for Bitkub. They have proven themselves to be one of the most consistent, committed and driven market makers on our exchange. Gravity Team has contributed high-quality volume and has proven to be very reliable and trustworthy partner. We strongly advocate Gravity Team as they have been an indispensable part of our market-making team."
-    //     },
-    //     {
-    //       id:5,
-    //       info:"Since 2019, Gravity team has been an astounding market maker for Bitkub. They have proven themselves to be one of the most consistent, committed and driven market makers on our exchange. Gravity Team has contributed high-quality volume and has proven to be very reliable and trustworthy partner. We strongly advocate Gravity Team as they have been an indispensable part of our market-making team."
-    //     },
-    //   ];
-
     return (
       <div className="w-screen cssanimation sequence fadeInBottom flex flex-col justify-center mt-8 sm:mt-10 md:mt-16 lg:mt-20 xl:mt-24 px-12 md:px-16 lg:px-20 xl:px-24 ">
         <span className="font-Inter text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-center shadow-purple-400">GALLERY</span>
         <div className="flex justify-between relative mt-4 sm:mt-8">
           <div className="swiper-prev">
-            <img src="public/arrow-left-circle-svgrepo-com.svg" alt="prev-image-btn" className="absolute top-1/2 left-0 h-10 w-10 z-20 animate-pulse " />
+            <img src="public/arrow-left-circle-svgrepo-com.svg" alt="prev-image-btn" className="absolute top-1/2 left-0 h-10 w-10 z-10 animate-pulse " />
           </div>
                 
           <Swiper
@@ -85,7 +58,7 @@ export default function CompanySwiper() {
             })}                
           </Swiper>
           <div className="swiper-next">
-            <img src="/right-arrow.svg" alt="next-image-btn" className="absolute rotate-360 top-1/2 right-0 h-10 w-10 z-20 animate-pulse "/>
+            <img src="/right-arrow.svg" alt="next-image-btn" className="absolute rotate-360 top-1/2 right-0 h-10 w-10 z-10 animate-pulse "/>
           </div>
         </div>
       </div>

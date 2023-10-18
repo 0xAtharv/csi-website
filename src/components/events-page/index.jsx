@@ -15,7 +15,7 @@ export default function EventsPage() {
   });
 
   return (
-    <div className="flex flex-col bg-gray-900 bg-[url('/csi-website.png')] bg-fixed">
+    <div className="flex flex-col bg-[url('/csi-website.png')] bg-fixed">
       <div className=" bg-black">
         <img
           src="./images/zephrbanner.png"
@@ -24,8 +24,7 @@ export default function EventsPage() {
         />
       </div>
       <div className="text-white py-8 ">
-        {/* <p className="text-center font-bold text-5xl my-8">ZEPHYR</p> */}
-        <p className="mx-10 border-2 rounded border-gray-500 px-6 md:px-10 text-center text-sm md:text-base lg:text:lg xl:text-xl">
+        <p className="mx-10 border-2 rounded border-gray-500 py-2 px-6 md:px-10 text-center text-sm md:text-base lg:text:lg xl:text-xl">
           Zephyr is a 3-day annual technical festival of Thakur College of
           Engineering and Technology. It was established in 2004 as a platform
           where students could exhibit and enhance their technical expertise.
@@ -42,10 +41,8 @@ export default function EventsPage() {
         </p>
       </div>
 
-      <p className="text-white shadow-lg shadow-slate-700 text-center font-bold text-5xl my-8 w-auto py-4 bg-gray-800">
-        EVENTS
-      </p>
-      <div className="wrapper">{eventDetail}</div>
+      <p className="text-white text-center font-bold text-5xl mb-8 mt-4 w-auto ">EVENTS</p>
+      <div className="wrapper py-8 md:py-12">{eventDetail}</div>
     </div>
   );
 }
