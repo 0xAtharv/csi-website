@@ -28,7 +28,7 @@ function Core() {
           />
         </motion.div>
 
-        <div className="font-semibold pt-5">{details.name}</div>
+        <div className="font-semibold pt-5 text-xl">{details.name}</div>
         <div className="underline underline-offset-4">{details.position}</div>
         <div className="social flex flex-row space-between">
           <a href={details.instagram}>
@@ -43,9 +43,9 @@ function Core() {
     );
   });
   return (
-    <>
-      <div className="bg-[url('/csi-website.png')] bg-fixed">
-        <h1 className="text-center text-3xl mt-5 p-2 text-white">OUR TEAM</h1>
+    
+      <div className="bg-[url('/csi-website.png')] bg-fixed bg-[#020005]">
+        <h1 className="text-center text-3xl p-2 text-white">OUR TEAM</h1>
         {/* <div className="flex flex-col m-10 justify-center items-center md:flex-row">
           <div className="container flex flex-col align-center items-center my-10 mx-10 w-1/2 md:w-1/4 text-white border-2 border-stone-50 rounded-lg shadow-lg hover:shadow-stone-200">
             <img
@@ -129,7 +129,7 @@ function Core() {
           {coreDetail}
         </div>
       </div>
-    </>
+    
   );
 }
 
