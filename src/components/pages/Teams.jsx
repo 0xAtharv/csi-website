@@ -8,7 +8,6 @@ export const Teams = () => {
   return (
     <>
       <Navbar/>
-      {/* <WCpage /> */}
       <Core/>
       <Footer/>
     </>
