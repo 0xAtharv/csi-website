@@ -6,26 +6,26 @@ export default function Mission(){
         {
             image:"challenge.svg",
             title:"Challenge",
-            content:"Overcoming challenges in our journey requires determination, innovation, and adaptability, propelling us to greater heights in computer engineering"
+            content:"Overcoming hurdles in computer engineering demands will and innovation, propelling us to new heights."
         },
         {
             image:"seizee.svg",
             title:"Seize",
-            content:"Seizing opportunities in this dynamic field means embracing change, staying agile, and continually leveraging emerging technologies for success"
+            content:"To seize opportunities in tech, embrace change, stay agile, and leverage emerging technologies for success."
         },
         {
             image:"innovate.svg",
             title:"Innovate",
-            content:"Innovation is the driving force behind computer engineering, propelling us to create cutting-edge tech solutions that reshape our digital world."
+            content:"Innovation drives computer engineering, creating cutting-edge solutions that reshape our digital world."
         }
     ]
     const missions = csi.map(mission => {
         return(
             <div className="relative group">
             <div className="parent flex flex-col border-2 border-gray-400 p-4 text-white relative z-10 shadow-md shadow-gray-500">
-                <img src={`/images/mission/${mission.image}`} alt="" className="w-40 h-40 self-center" />
+                <img src={`/images/mission/${mission.image}`} alt="" className="w-32 h-32 md:w-40 md:h-40 self-center" />
                 <span className="text-center font-bold text-lg md:text-lg lg:text-2xl uppercase">{mission.title}</span>
-                <span className="text-center mt-2 md:mt-3 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">{mission.content}</span>
+                <span className="text-center mt-2 md:mt-3 text-xs sm:text-sm lg:text-base xl:text-xl ">{mission.content}</span>
             </div>
             <div className="absolute top-0 left-0 w-full h-full opacity-0 gradient-dark-to-light transform -translate-x-full group-hover:opacity-100 group-hover:transform translate-x-0 z-0"></div>
         </div>    
