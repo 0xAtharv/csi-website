@@ -4,19 +4,19 @@ import "./mission.css"
 export default function Mission(){
     const csi = [
         {
-            image:"seize.jpeg",
-            title:"seize",
-            content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ut sint suscipit eligendi voluptates quasi!"
+            image:"challenge.svg",
+            title:"Challenge",
+            content:"Overcoming challenges in our journey requires determination, innovation, and adaptability, propelling us to greater heights in computer engineering"
         },
         {
-            image:"seize.jpeg",
-            title:"seize",
-            content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ut sint suscipit eligendi voluptates quasi!"
+            image:"seizee.svg",
+            title:"Seize",
+            content:"Seizing opportunities in this dynamic field means embracing change, staying agile, and continually leveraging emerging technologies for success"
         },
         {
-            image:"seize.jpeg",
-            title:"seize",
-            content:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ut sint suscipit eligendi voluptates quasi!"
+            image:"innovate.svg",
+            title:"Innovate",
+            content:"Innovation is the driving force behind computer engineering, propelling us to create cutting-edge tech solutions that reshape our digital world."
         }
     ]
     const missions = csi.map(mission => {
