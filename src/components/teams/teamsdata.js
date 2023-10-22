@@ -1,59 +1,59 @@
 export const technicals = [
   {
     id:1,
-    name:"arnav manjo",
+    name:"Yashasvi Vaidya",
     coverImg: "katie-zaferes.png",
     instalink:"https://www.instagram.com/arnav_singh030/",
     linkdinlink:"https://www.instagram.com/arnav_singh030/", 
   },
   {
     id:2,
-    name:"arnav anjdnf",
+    name:"Prachi Vaidhya",
     coverImg: "katie-zaferes.png",
     instalink:"https://www.instagram.com/arnav_singh030/",
     linkdinlink:"https://www.instagram.com/arnav_singh030/", 
   },
   {
     id:3,
-    name:"arnav singh",
+    name:"Anshul Khadatkar",
     coverImg: "katie-zaferes.png",
     instalink:"https://www.instagram.com/arnav_singh030/",
     linkdinlink:"https://www.instagram.com/arnav_singh030/", 
   },
   {
     id:4,
-    name:"arnav singh",
+    name:"Arnav Singh",
     coverImg: "katie-zaferes.png",
     instalink:"https://www.instagram.com/arnav_singh030/",
     linkdinlink:"https://www.instagram.com/arnav_singh030/", 
   },
   {
     id:5,
-    name:"arnav singh",
+    name:"Dibya Jyoti Dutta",
     coverImg: "katie-zaferes.png",
     instalink:"https://www.instagram.com/arnav_singh030/",
     linkdinlink:"https://www.instagram.com/arnav_singh030/", 
   },
-  {
-    id:6,
-    name:"arnav singh",
-    coverImg: "katie-zaferes.png",
-    instalink:"https://www.instagram.com/arnav_singh030/",
-    linkdinlink:"https://www.instagram.com/arnav_singh030/", 
-  },
-  {
-    id:51,
-    name:"arnav singh",
-    coverImg: "katie-zaferes.png",
-    instalink:"https://www.instagram.com/arnav_singh030/",
-    linkdinlink:"https://www.instagram.com/arnav_singh030/", 
-  }
+  // {
+  //   id:6,
+  //   name:"arnav singh",
+  //   coverImg: "katie-zaferes.png",
+  //   instalink:"https://www.instagram.com/arnav_singh030/",
+  //   linkdinlink:"https://www.instagram.com/arnav_singh030/", 
+  // },
+  // {
+  //   id:51,
+  //   name:"arnav singh",
+  //   coverImg: "katie-zaferes.png",
+  //   instalink:"https://www.instagram.com/arnav_singh030/",
+  //   linkdinlink:"https://www.instagram.com/arnav_singh030/", 
+  // }
 ]
 
 export const creatives =   [
   {
     id:7,
-    name:"dibya",
+    name:"Tanya Shah",
     coverImg: "katie-zaferes.png",
     instalink:"https://www.instagram.com/arnav_singh030/",
     linkdinlink:"https://www.instagram.com/arnav_singh030/", 
