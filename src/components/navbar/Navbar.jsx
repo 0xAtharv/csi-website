@@ -26,7 +26,7 @@ export const Navbar = () => {
               TEAMS
               <div className="dropdown-content rounded-md">
                 <NavLink  to="/teams" className="a">Core</NavLink>
-                <NavLink to="" className="a">Working Committee</NavLink>
+                <NavLink to="/wc" className="a">Working Committee</NavLink>
                 <NavLink to="" className="a">Ex-Core</NavLink>
               </div>
             </div>

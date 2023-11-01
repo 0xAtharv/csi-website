@@ -109,7 +109,7 @@ function Core() {
               className="image rounded-full w-1/2 m-5"
             />
             <h3 className="text-center font-4xl font-semibold ">
-              Shailesh Sangle
+              Prof. Shailesh Sangle
             </h3>
             <span>Asst Prof-Comp Dept</span>
           </div>
@@ -118,8 +118,8 @@ function Core() {
               src="public/faculty/vs.JPG"
               className="image rounded-full w-1/2 m-5"
             />
-            <h3 className="text-center font-4xl font-semibold ">Vikas Singh</h3>
-            <span>Asst Prof-C omp Dept</span>
+            <h3 className="text-center font-4xl font-semibold ">Prof. Vikas Singh</h3>
+            <span>Asst Prof-Comp Dept</span>
           </div>
         </div>
         <h1 className="text-center text-3xl m-5 p-5 text-white">
